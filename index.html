@@ -34,16 +34,23 @@
           </svg>
         </button>
       </div>
-      <div class="weather">
+      <div class="weather loading">
         <h2 class="city">Weather in Phoenix</h2>
         <h1 class="temp">71° F</h1>
         <div class="date">3/8/23</div>
-        <img src="" alt="" class="icon" />
+        <div class="flex">
+          <img
+            src="https://openweathermap.org/img/wn/01d.png"
+            alt="icon-for-sun"
+            class="icon"
+          />
+          <div class="description">Cloudy</div>
+        </div>
         <div class="wind">Wind Speed: 5mph</div>
         <div class="humidity">Humidity: 15%</div>
       </div>
     </div>
 
-    <script src="./scripts.js"></script>
+    <script src="./scripts.js" defer></script>
   </body>
 </html>
